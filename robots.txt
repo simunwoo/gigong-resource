@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://xn--ob0b9wn45c6va.kr/sitemap.xml
