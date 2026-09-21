@@ -1,0 +1,15 @@
+{
+  "businessName": "기공자원",
+  "owner": "전동수",
+  "phone": "010-8787-1186",
+  "address": "경기 김포시 운양동 158-1번지",
+  "weekdayHours": "06:00–17:00",
+  "saturdayHours": "06:00–15:00",
+  "sundayHours": "휴무",
+  "heroKicker": "고철 · 비철 · 폐기계 · 철거자재 전문",
+  "heroTitle": "자원은 다시, 가치가 됩니다.",
+  "heroDescription": "약 20년 현장 경험의 기공자원. 공장·제조업체·건설현장 물량을 상담 후 직접 수거합니다.",
+  "heroImage": "/assets/og-image.jpg",
+  "seoTitle": "김포 고철·비철 매입·현장수거 | 기공자원",
+  "seoDescription": "김포 기공자원은 약 20년 현장 경험을 바탕으로 공장·제조업체·건설현장·철거업체의 고철, 비철, 폐기계, 철거자재 현장수거 및 매입을 상담합니다."
+}

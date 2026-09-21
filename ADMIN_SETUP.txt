@@ -1,0 +1,15 @@
+기공자원 관리자 CMS 1차 패키지
+관리주소: https://기공자원.kr/admin/
+
+최초 연결:
+1. GitHub에 gigong-resource 저장소 생성
+2. 이 패키지 전체를 main 브랜치에 업로드
+3. Netlify에서 GitHub 저장소를 연결해 자동 배포
+4. admin/config.yml의 YOUR_GITHUB_ID를 실제 GitHub ID로 변경
+5. GitHub OAuth 인증 설정
+6. /admin/에서 로그인
+
+관리 항목: 기본정보, 영업시간, 메인 문구/사진, SEO, 수거·매입 사례, 공지사항.
+
+중요: 현재 사이트는 단일 정적 HTML이므로 이 버전은 관리자 CMS 기반을 추가한 1차 패키지입니다.
+관리자에서 저장한 데이터를 홈페이지에 자동 반영하려면 다음 단계에서 기존 index.html을 데이터 기반 렌더링 구조로 연결해야 합니다.
