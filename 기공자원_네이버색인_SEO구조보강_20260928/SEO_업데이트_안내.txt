@@ -1,0 +1,29 @@
+기공자원 SEO 구조 보강본 (2026-09-28)
+
+추가 페이지
+- company.html : 회사소개
+- service.html : 고철·비철 현장수거
+- items.html : 취급품목
+- area.html : 서비스지역
+- contact.html : 문의·오시는 길
+- 404.html : 실제 404 안내 페이지
+- assets/site.css : 신규 페이지 공통 스타일
+
+수정
+- index.html 내부 링크 보강
+- sitemap.xml 6개 정상 콘텐츠 URL 등록
+- 각 페이지 고유 title / description / canonical / OG / 구조화데이터 적용
+- robots.txt 기존 정상 설정 유지
+
+배포 후
+1. GitHub 저장소 최상위에 전체 파일 업로드/교체
+2. Netlify 배포 완료 확인
+3. https://기공자원.kr/sitemap.xml 에 6개 URL이 보이는지 확인
+4. 네이버 서치어드바이저에서 sitemap.xml 재제출
+5. 메인 / company.html / service.html / items.html 정도만 우선 수집 요청
+6. 며칠 뒤 '색인 상태 확인'에서 색인 완료 여부 확인
+
+주의
+- 지역 키워드만 바꾼 유사 페이지를 대량 생성하지 않았습니다.
+- 실제 사업 정보가 있는 독립 페이지로 구성했습니다.
+- 운영시간은 기존 JSON-LD의 고정 시간을 확대하지 않고, contact 페이지에는 '평일·토 운영 / 일정에 따라 변동 / 일요일 휴무'로 표현했습니다.
